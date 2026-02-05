@@ -11,7 +11,7 @@
 - PCA/KPCA components of all CA positions
 ## Analysis
 - Per frame feature vector was created using the frame data and above features
-- Frames from the same trajectory were grouped as they ae not independent
+- Frames from the same trajectory were grouped as they are not independent
 - Model training and evaluation were conducted in a Google Colab Jupyter Lab environment, enabling scalable computation and reproducibility.
 - To prevent data leakage and ensure generalizability, Leave-One-Group-Out cross-validation was employed, with each MD replica treated as an independent group. This validation strategy ensured that the model was tested on trajectories it had not seen during training.
 - The classifier was tested for accuracy, precision/recall, and confusion matrix.
